@@ -1,0 +1,61 @@
+@import '../../../../globals/globals.sass'
+
+.profile
+  margin-left: 16px
+  overflow: auto
+  text-align: center
+
+  .user__info
+    h1
+      padding-bottom: 21px
+      font-size: $text-large
+      font-weight: 400
+      border-bottom: 2px solid $gray-dark
+
+    #user__img
+      border-radius: 70px
+      height: 120px
+      margin-bottom: 1em
+
+    h5
+      font-size: $text-large
+      font-weight: 400
+      margin: 0
+    p
+      font-size: $text-small
+      font-weight: 300
+
+  #icon
+    height: 22px
+    padding: 0 .5em
+
+    &:hover
+      cursor: pointer
+
+  .images
+    h5
+      border-bottom: 2px solid $gray-dark
+      font-size: $text-medium
+      padding-bottom: 1em
+
+    .shared__images
+      display: flex
+      flex-wrap: wrap
+      padding: 0 4px
+
+      .column
+        flex: 50%
+        max-width: calc(50% - 4px)
+
+      .left
+        padding-right: 8px
+
+      img
+        border-radius: 6px
+        transition: transform .1s ease-in-out
+        width: 100%
+        cursor: pointer
+        padding-top: 4px
+
+        &:hover
+          transform: scale(1.03)

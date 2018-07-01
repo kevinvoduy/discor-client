@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "James Velle",
+    "userImg": "http://www.philadelphiacorporateheadshots.org/wp-content/gallery/people/True-Capital-July-2014-36-Square.jpg",
+    "status": "New",
+    "subject": "We need the lease documents",
+    "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "createdAt": "2018-06-18 09:35:45"
+  },
+  {
+    "id": 2,
+    "name": "Danielle Washington",
+    "userImg": "http://www.philadelphiacorporateheadshots.org/wp-content/gallery/people/Lisa-Monk-Janet-May-2014-253.jpg",
+    "status": "Replied",
+    "subject": "Maintenence Request",
+    "content": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC.",
+    "members": ["Kevin Vo", "Donnie Vo", "Christine Vo"],
+    "createdAt": "2018-06-18 08:10:45"
+  },
+  {
+    "id": 3,
+    "name": "Charles Howe",
+    "userImg": "http://www.philadelphiacorporateheadshots.org/wp-content/gallery/people/Thrive-May-2016-36.jpg",
+    "status": "Read",
+    "subject": "We need the lease documents",
+    "content": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+    "createdAt": "2018-06-17 08:10:45"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Horn",
+    "userImg": "http://www.philadelphiacorporateheadshots.org/wp-content/gallery/people/Annual-Meeting-2014-185-Square-1.jpg",
+    "status": "Read",
+    "subject": "Need recipe for chop salad",
+    "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "members": ["Bond"],
+    "createdAt": "2018-06-15 02:20:25"
+  }
+]

@@ -1,0 +1,24 @@
+/* -- imports -- */
+@import '../globals/globals.sass'
+
+.home__page
+  display: grid
+  grid-template-columns: 14em 1fr
+  grid-template-rows: auto
+  grid-template-areas: "navbar navbar" "links content"
+  height: 100vh
+  position: relative
+  overflow: hidden
+  width: $screen-large
+  margin: 0 auto
+
+.nav__bar
+  grid-area: navbar
+  height: 3.5em
+
+.links
+  grid-area: links
+  height: calc(100vh - 3.5em)
+
+.content__switcher
+  grid-area: content

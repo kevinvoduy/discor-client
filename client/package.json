@@ -1,0 +1,71 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w --mode development",
+    "build": "webpack"
+  },
+  "author": "Kevin V",
+  "license": "ISC",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "eslintIgnore": "/client/public/bundle.js",
+  "dependencies": {
+    "autoprefixer": "^8.5.0",
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^5.0.1",
+    "dropzone": "^5.4.0",
+    "moment": "^2.22.1",
+    "postcss-loader": "^2.1.5",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-dropzone": "^4.2.11",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-slick": "^0.23.1",
+    "redux": "^4.0.0",
+    "redux-devtools": "^3.4.1",
+    "redux-thunk": "^2.2.0",
+    "slick-carousel": "^1.8.1",
+    "smoothscroll": "^0.4.0",
+    "socket.io-client": "^2.1.1",
+    "superagent": "^3.8.3",
+    "uglify-js": "^3.3.21",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "compression-webpack-plugin": "^1.1.11",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "serverless-offline": "^3.25.5",
+    "serverless-webpack": "^5.1.5",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.4"
+  }
+}

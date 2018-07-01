@@ -1,0 +1,27 @@
+service: client-service
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+
+provider:
+  name: aws
+  runtime: nodejs8.11.1
+  stage: dev
+  region: us-west-1
+  environment:
+    SERVICE_NAME: ${self:service}
+
+functions:
+  client:
+    handler: client.main
+    events:
+      - http:
+          path: /
+          method: get
+          cors: true

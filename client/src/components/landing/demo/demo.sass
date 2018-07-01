@@ -1,0 +1,49 @@
+@import '../../globals/globals.sass'
+
+.demo
+  display: grid
+  grid-template-columns: 800px minmax(300px, 1fr)
+  align-content: center
+  height: 80vh
+  margin: 0 auto
+  padding: 0 8em 0 6em
+  background-image: url('/assets/squiggles.svg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: 120%
+
+  .image
+    img
+      width: 100%
+      margin-top: 2em
+
+  .demo__highlights
+    padding: 0
+    margin: 0
+    text-align: left
+    justify-content: center
+    margin: auto 0
+
+    .detail
+      margin: 3em 0
+
+      img
+        height: $icon-size
+        display: inline-block
+        position: relative
+        left: 1em
+
+      h5
+        display: inline-block
+        font-size: $text-large
+        font-weight: 300
+        margin: 0
+        position: relative
+        left: 1.5em
+        top: -8px
+
+      p
+        font-size: $text-small
+        font-weight: 300
+        margin: 8px 0 0 0
+

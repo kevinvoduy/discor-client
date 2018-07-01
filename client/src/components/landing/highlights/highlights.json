@@ -1,0 +1,22 @@
+[
+  {
+    "url": "assets/mode.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "header": "Always latest news"
+  },
+  {
+    "url": "assets/config.png",
+    "text": "Maecenas gravida lectus vitae tellus dictum, eu congue erat.",
+    "header": "Personal customization"
+  },
+  {
+    "url": "assets/share.png",
+    "text": "Maecenas ex erat, varius ut tristique eu, gravida eu lacus.",
+    "header": "Share with friends"
+  },
+  {
+    "url": "assets/question.png",
+    "text": "Quisque pharetra et lorem et aliquet. In nec erat at risus blandit.",
+    "header": "24hr support"
+  }
+]

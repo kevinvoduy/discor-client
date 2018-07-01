@@ -1,0 +1,52 @@
+@import '../../globals/globals.sass'
+
+.login__page
+  display: grid
+  grid-template-columns: 1fr 500px
+  grid-column-gap: 8em
+  overflow: hidden
+  padding: 8em 10em 0 10em
+  margin: 0 auto
+  max-width: $screen-large
+
+  .form__container
+    min-width: 420px
+    max-width: 550px
+    margin: 0 0 0 auto
+
+    #headline
+      font-size: 48px
+      font-weight: 300
+      padding: 4em 0 0 0
+      margin: 0
+      line-height: $line-height
+
+    #small__text
+      font-size: $text-medium
+      font-weight: 300
+      padding: 1em 0
+      margin: 0
+
+    #signup__form
+      input
+        width: 94%
+        padding: 1em
+        margin-bottom: .4em
+        border: 2px solid $blue
+        border-radius: 4px
+
+  button
+    background: linear-gradient(to bottom right, $blue , $violet)
+    padding: 1em 2em
+    margin: 0 1em 0 0
+    color: white
+    border: none
+    cursor: pointer
+    border-radius: 40px
+    box-shadow: 0px 4px 16px 2px rgba(170, 100, 200, .5)
+
+  .hero__image
+    overflow: hidden
+
+    img
+      height: 650px

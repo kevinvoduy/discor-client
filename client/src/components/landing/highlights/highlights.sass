@@ -1,0 +1,30 @@
+@import '../../globals/globals.sass'
+
+.highlights
+  padding: 6em 8em 4em 8em
+  text-align: center
+  margin: 0 auto
+  max-width: $screen-large
+  min-width: $screen-small
+
+  #question
+    font-size: $text-x-large
+    width: 100%
+    font-weight: 300
+
+  .bullets
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-column-gap: 2em
+
+    #header__icon
+      width: 25%
+      padding: 2em 0
+
+    #header
+      font-weight: 700
+
+    #text
+      font-size: $text-medium
+      font-weight: 400
+      color: $gray-dark
